@@ -1,0 +1,24 @@
+{
+  "name": "travisci-test",
+  "version": "1.0.0",
+  "description": "Like a light",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "success-test": "mocha test/successTest.js",
+    "failure-test": "mocha test/failureTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3jins/travisci-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3jins/travisci-test/issues"
+  },
+  "homepage": "https://github.com/3jins/travisci-test#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
